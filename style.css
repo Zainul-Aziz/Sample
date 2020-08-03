@@ -121,3 +121,48 @@ table
         font-size: 30px;
     }
 }
+
+/*   animation css  */
+.about_set,.coronaDetails,.sym1,.sym2,.sym3,.sym4,.sym5,.sym6,.prevention1,.prevention2,.prevention3
+{
+  opacity: 0;
+}
+.about_set.animated,.coronaDetails.animated,.sym1.animated,.sym2.animated,.sym3.animated,.sym4.animated,.sym5.animated,.sym6.animated,.prevention1.animated,.prevention2.animated,.prevention3.animated
+{
+  opacity: 1;
+}
+
+
+.about_set
+{
+  animation-delay: 0.25s;
+}
+.coronaDetails
+{
+  animation-delay: 0.50s;
+}
+
+.sym1,.prevention1
+{
+    animation-delay: 0.20s;
+}
+.sym2
+{
+    animation-delay: 0.30s;
+}
+.sym3,.prevention2
+{
+    animation-delay: 0.40s;
+}
+.sym4
+{
+    animation-delay: 0.50s;
+}
+.sym5,.prevention3
+{
+    animation-delay: 0.60s;
+}
+.sym6
+{
+    animation-delay: 0.70s;
+}
